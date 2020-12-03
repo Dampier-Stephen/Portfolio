@@ -1,0 +1,79 @@
+body {
+    background: rgb(32, 52, 90);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    display: relative;
+    width: 970px;
+    margin: 0 auto;
+}
+
+header {
+    background: #CF2E35;
+    border-radius: 10px;
+    color: #C2D6EB;
+    
+    margin: 15px 0 0 0;
+    padding: 0 20px;
+}
+
+header h1 {
+    line-height: 2;
+}
+
+main {
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 15px 0;
+}
+
+nav {
+    border-radius: 10px;
+    background: rgb(66, 123, 138);
+    font-size: 14px;
+    margin-right: 15px;
+    min-width: 160px;
+    padding: 15px;
+}
+
+article {
+    border-radius: 10px;
+    background: rgb(16, 24, 33);
+    color: #CBE1EE;
+    font-size: 14px;
+    padding: 15px;
+}
+
+ul {
+    padding-left:15px;
+}
+
+
+article li {
+    margin-bottom: 8px;
+}
+
+
+footer {
+    background: rgb(95, 102, 114);
+    border-radius: 20px;
+    bottom: 15px;
+    color: rgb(186, 218, 235);
+    line-height: 1.5;
+    padding: 15px;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: rgb(106, 204, 225);
+}
+
+.code {
+    color: rgb(99,110,188);
+}
