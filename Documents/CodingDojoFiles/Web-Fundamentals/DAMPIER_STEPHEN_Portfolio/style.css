@@ -1,0 +1,189 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* expensive if you get picky. A css reset is probably better */
+* {
+    box-sizing:border-box; 
+}
+
+#wrapper {
+    padding:20px;
+    margin:20px auto;
+    width: 960px;
+}
+header {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 14%, rgba(242,242,242,1) 100%);
+    max-height: 60px;
+    padding: 5px 20px;
+}
+
+header h1,
+header h2 {
+    display: inline-block;
+    margin:0;
+    padding:0;
+    width: 49.5%;
+}
+header h1 {
+    font-family: 'Comic Sans MS', cursive;
+    font-weight:bold;
+}
+header h2 {
+    font-size: 20px;
+    line-height: 2.4;
+    padding-right: 10px;
+    text-align: right;
+    vertical-align: top;
+}
+
+.jayne-doe {
+    width: 50%;
+}
+main {
+    background: rgb(111,89,99);
+    background: radial-gradient(circle, rgba(111,89,99,1) 14%, rgba(75,55,63,1) 72%, rgba(27,10,14,1) 100%);
+    padding:20px;
+}
+
+footer {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 14%, rgba(242,242,242,1) 100%);
+    padding: 20px;
+}
+.technologies  {
+    padding: 10px;
+}
+.technologies img {
+    height:40px;
+    margin: 2px;
+    width:40px;
+}
+
+.media-logos {
+    display: block;
+    text-align: center;
+}
+
+.media-logos li {
+    display: inline-block;
+    line-height: 1.5;
+}
+
+.media-logos img {
+    height:20px;
+    margin: 0 0 -5px 0;
+    width:20px;
+}
+
+.media-logos a:link,
+.media-logos a:visited,
+.media-logos a:hover,
+.media-logos a:active,
+.contact a:link,
+.contact a:visited,
+.contact a:hover,
+.contact a:active {
+    color: #000;
+    font-style: italic;
+}
+
+.contact a:link,
+.contact a:visited,
+.contact a:hover,
+.contact a:active {
+    font-style: normal;
+    text-decoration: none;
+}
+
+#projects ul  {
+    margin:0;
+    padding:0;
+}
+
+#projects ul li {
+    background: white;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 14%, rgba(218,203,216,1) 100%);
+    display: inline-block;
+    margin: 20px 20px 0 0;
+    min-height: 505px;
+    width: 276.8px;
+    vertical-align: top;
+}
+
+#projects ul li:last-child {
+    margin-right: 0;
+}
+
+#projects p {
+    font-size: 13.5px;
+    margin: 0;
+    min-height: 140px;
+    padding: 0 10px 0;
+    text-align: justify; 
+}
+
+#projects .projects-images {
+    margin-bottom: 4px;
+    width: 100%;
+}
+
+.about {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 14%, rgba(218,203,216,1) 100%);
+    display: inline-block;
+    font-size: 16px;
+    min-height: 291.5px;
+    margin-left: 20px;
+    vertical-align: top;
+    width: 415px;
+}
+
+.portrait {
+    border: 5px solid #C0C0C0;
+    display: inline-block;
+    width: 440px;
+}
+
+h3, h5 {
+    background: rgb(179,178,182);
+    background: linear-gradient(0deg, rgba(179,178,182,1) 14%, rgba(136,134,147,1) 72%, rgba(179,178,182,1) 100%);
+    color: white;
+    margin: 0;
+    padding: 7px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+.about p {
+    margin: 10px 10px 0 ;
+}
+
+.about a:link,
+.about a:visited,
+.about a:hover,
+.about a:active {
+    color: #000;
+}
+
+.contact {
+    text-align: center;
+}
+
+button {
+    background: #3F7E62;
+    box-shadow:4px 4px 5px 0px rgba(50, 50, 50, 0.75);
+    border: 1px solid #30654E;
+    border-radius: 7px;
+    color: white;
+    display: block;
+    font-weight: bold;
+    line-height: 1.8;
+    margin: 15px auto 10px;
+}
